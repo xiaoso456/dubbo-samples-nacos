@@ -36,6 +36,7 @@ public class Application {
                 .application("first-dubbo-provider")
                 // 这里是注册中心地址
                 .registry(new RegistryConfig("nacos://localhost:8848"))
+                // 使用 dubbo 协议，随机端口
                 .protocol(new ProtocolConfig("dubbo", -1))
                 .service(service)
                 .start()
