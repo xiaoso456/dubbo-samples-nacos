@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: rest
+    port: 20000
+  registry:
+    address: nacos://localhost:8848
