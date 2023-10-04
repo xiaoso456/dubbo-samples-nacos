@@ -6,3 +6,5 @@ dubbo:
     port: 20000
   registry:
     address: nacos://localhost:8848
+server:
+  port: 20001
